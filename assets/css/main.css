@@ -83,7 +83,8 @@
 /* Styling for the modal content */
 .modal-content {
   background-color: rgba(0, 0, 0, 0.4);
-  margin: 10% auto;/*margin: 15% auto; /* 15% frosm the top and centered */
+  /*margin: 10% auto;*/
+  /*margin: 15% auto; /* 15% frosm the top and centered */
   /*padding: 2px;*/
   /*border-radius: 1px;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -92,13 +93,14 @@
 	align-items: center;
   justify-content: center;
 	align-items: center;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 100%; /* Could be more or less, depending on screen size */
 }
 
 .modal-image{
-	overflow: hidden;
+  overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
+  max-height: 100vh;
 }
 
 /* Styling for the close button */
@@ -1751,6 +1753,7 @@ input, select, textarea {
 		.box.post h2 {
 			font-size: 2.5em;
 			letter-spacing: -0.015em;
+			line-height: normal;
 		}
 
 		.box.post header > p {
