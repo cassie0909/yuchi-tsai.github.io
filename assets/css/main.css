@@ -2283,7 +2283,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
+					background: #2d4263;
 					color: #fff !important;
 					font-weight: 700;
 				}
@@ -2339,7 +2339,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/background_taipei_1.jpg");
+		background: #CCE8F4 url("../../images/background_paper_image.jpg");
 		background-position: center center;
 		/*background-size: auto 100%;*/
 		background-size: cover;
