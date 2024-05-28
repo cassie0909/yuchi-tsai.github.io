@@ -89,7 +89,7 @@
 
 
 	window.onclick = function(event) {
-		if (event.target == closeModalButton || event.target == modal) {
+		if (event.target == closeModalButton || event.target == modal || event.target == modalImage) {
 			closeModal();
 		}
 		else {
@@ -98,7 +98,7 @@
 					const targetId = toggleButtons[i].getAttribute('data-target');
 					const hiddenContainer = document.getElementById(targetId);
 					const customWord = toggleButtons[i].getAttribute('data-word');
-					if (hiddenContainer.style.display === "none" || 
+					if (hiddenContainer.style.display === "none" ||
 						hiddenContainer.style.display === "") {
 						hiddenContainer.style.display = "block"; // Show the container
 						toggleButtons[i].textContent = "Hide " + customWord + " \u25BC";
